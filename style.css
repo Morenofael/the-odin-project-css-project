@@ -51,3 +51,76 @@ button{
     flex: 1;
     background-color: #3b4c63;
 }
+
+/*Some random information*/
+#random-information{
+    background-color: #ffffff;
+    padding: 64px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:48px;
+}
+#information-header{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+#information-container{
+    display:flex;
+}
+.both-container{
+    display: flex;
+    flex-direction: column;
+    width:150;
+    align-items: center;
+    text-align: center;
+}
+.information-button{
+    border: 5px solid #3882F6;
+    width: 128px;
+    height: 128px;
+    border-radius: 8px;
+}
+
+/*quote section*/
+.quote-section{
+    background-color: #E5E7EB;
+    padding: 10rem 5rem;
+}
+.quote-container{
+    display: flex;
+    flex-direction: column;
+}
+#quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+#citation{
+    font-size: 36px;
+    font-weight: 400;
+    align-self: flex-end;
+}
+/*Product section*/
+#product-section{
+    padding: 124px 248px;
+}
+#product-container{
+    background-color: #3882F6;
+    padding: 32px 64px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+.buy-button{
+    background-color: #3882F6;
+    padding: 8px 16px;
+    height: 50%;
+    align-self: center;
+}
+#copyright{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
